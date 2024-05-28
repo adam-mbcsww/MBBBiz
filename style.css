@@ -128,7 +128,16 @@ h6 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     color: #fff;
-    text-align: left;
+    text-align: left;    
+    max-width: 500px;
+}
+
+.carousel-caption.d-none.d-md-block h5 {
+    font-size: 1.85rem;
+}
+.carousel-caption.d-none.d-md-block h3 {
+    color: #FFC73D;
+    font-size: 3rem;
 }
  
 .carousel-indicators [data-bs-target] {
