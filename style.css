@@ -1,0 +1,92 @@
+#mainnav {
+    background-color: #FFC73D!important;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 38%;
+    left: 10%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+ 
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 8px; /* adjust the width and height to make them smaller */
+  height: 8px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%; /* add this to make them circular */ 
+  opacity: 1;
+}
+
+.carousel-indicators [data-bs-target].active {
+  background-color: #9E9E9E; /* change the active indicator color to a darker blue */
+  opacity: 1;
+}
+
+.accordButIcon {
+    display: inline-block !important;
+    width: 70px;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.card-btn {
+    text-transform: uppercase;
+}
+
+.card-img-top {
+    padding: 70px 40px;
+    background: #E9E9E9;
+}
+
+img.card-img-top.nopad {
+    padding: 0;
+    background: #E9E9E9;
+}
+
+.peachbg {
+    background-color: #FEF9EC;
+}
+
+.rolloveryellow {
+    cursor: pointer;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.rolloveryellow:hover {
+    border-bottom: #FFC73D solid 2px;
+    margin: 0 auto;
+}
+
+.accordIcon {
+    margin: 0 auto;
+}
