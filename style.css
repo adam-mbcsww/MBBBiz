@@ -1,6 +1,124 @@
+@font-face {
+    font-family: 'Rubik Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(font/Rubik-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Rubik Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url(font/Rubik-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Rubik Semi Bold';
+    font-style: normal;
+    font-weight: 600;
+    src: url(font/Rubik-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Rubik Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url(font/Rubik-VariableFont_wght.ttf) format('truetype');
+}
+
+p, h6 {
+    font-family: 'Rubik Regular';
+}
+
+h3, h4, .bigButtonStyle {
+    font-family: 'Rubik Semi Bold';
+}
+
+h5 {
+    font-family: 'Rubik Bold';
+}
+
+h6 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
 #mainnav {
     background-color: #FFC73D!important;
 }
+
+.bigButtonStyle {
+    background-color: #FFC73D;
+    color: #000;
+    border: none;
+}
+
+.bigButtonStyle:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.learnButtonStyle {
+    font-family: 'Rubik Regular';
+    color: #0074DD;
+    background-color: #fff;
+    border: none;
+    padding: 0;
+}
+
+.learnButtonStyle:hover {
+    font-family: 'Rubik Regular';
+    color: #0074DD;
+    background-color: #fff;
+    border: none;
+    padding: 0;
+}
+
+.seeButtonStyle {
+    font-family: 'Rubik Medium';
+    color: #000;
+    background-color: #fff;
+    border: #000 solid 2px;
+    text-transform: uppercase;
+}
+.seeButtonStyle:hover {
+    font-family: 'Rubik Medium';
+    color: #000;
+    background-color: #fff;
+    border: #000 solid 2px;
+    text-transform: uppercase;
+}
+
+.sticky-box-container {
+    position: absolute;
+    top: 30em;
+    right: 0;
+    transform: translateY(-50%);
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .sticky-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .stickyflex {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+  }
+
+  .sticky-box:first-child {
+    background-color: #FFC73D;
+    border-top-left-radius: 10px;
+    padding: 10px 20px 0px 20px;
+  }
+
+  .sticky-box:nth-child(2) {
+    padding: 0 20px;
+    border-bottom-left-radius: 10px;
+  }
 
 .carousel-caption {
     position: absolute;
@@ -33,9 +151,17 @@
   opacity: 1;
 }
 
+div#accordionFlushMBB {
+    margin: 3rem 6rem;
+}
+
 .accordButIcon {
     display: inline-block !important;
     width: 70px;
+}
+
+.accordion-item { 
+    border: 2px solid #FFC73D;
 }
 
 .accordion-button {
@@ -63,8 +189,15 @@
 }
 
 .card-img-top {
-    padding: 70px 40px;
+    padding: 40px;
     background: #E9E9E9;
+    height: 190px;
+}
+
+img.card-img-top.fitNice {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
 }
 
 img.card-img-top.nopad {
@@ -74,6 +207,7 @@ img.card-img-top.nopad {
 
 .peachbg {
     background-color: #FEF9EC;
+    padding: 40px 0;
 }
 
 .rolloveryellow {
@@ -89,4 +223,32 @@ img.card-img-top.nopad {
 
 .accordIcon {
     margin: 0 auto;
+}
+
+div#carousel3AAT .card-body {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.lineLeftBg {
+    background-image: url(img/yellowLineLeftBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.lineLeftBg p {
+    margin: 0;
+}
+
+.lineLeftBg p a{
+    margin: 0 40px;
 }
