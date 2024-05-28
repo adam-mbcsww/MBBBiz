@@ -23,21 +23,34 @@
     src: url(font/Rubik-VariableFont_wght.ttf) format('truetype');
 }
 
-p, h6 {
+p, h6, .flex-column {
     font-family: 'Rubik Regular';
 }
 
-h3, h4, .bigButtonStyle {
+.flex-column strong {
+    font-family: 'Rubik Medium';
+    margin-bottom: -10px;
+    display: block;
+}
+
+h3, h4, .h3, .h4, .bigButtonStyle {
     font-family: 'Rubik Semi Bold';
 }
 
-h5 {
+h5, .h5 {
     font-family: 'Rubik Bold';
 }
 
-h6 {
+.h6, h6 {
+    color: #000;
     font-size: 1.2rem;
     margin: 10px 0;
+    display: block;
+}
+
+p {
+    color: #373737;
+    font-size: 0.8rem;
 }
 
 #mainnav {
@@ -164,6 +177,20 @@ div#accordionFlushMBB {
     margin: 3rem 6rem;
 }
 
+.accordion-button::after { 
+    height: 40px; 
+    background-size: 40px; 
+    width: 40px;
+}
+
+.accordion-button:not(.collapsed) {
+    background: transparent; 
+}
+
+button:focus:not(:focus-visible) {
+    box-shadow: none;
+}
+
 .accordButIcon {
     display: inline-block !important;
     width: 70px;
@@ -260,4 +287,24 @@ div#carousel3AAT .card-body {
 
 .lineLeftBg p a{
     margin: 0 40px;
+} 
+ 
+
+.carousel-control-prev-icon {
+    background-image: url(img/prev.png);
+    opacity: 1;
+    width: 20px;
+}
+.carousel-control-next-icon {
+    background-image: url(img/next.png);
+    opacity: 1;
+    width: 20px;
+}
+
+.carousel-control-next {
+    right: -150px;
+}
+
+.carousel-control-prev {
+    left: -150px;
 }
