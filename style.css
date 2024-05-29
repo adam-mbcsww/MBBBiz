@@ -46,11 +46,11 @@ p, h6, .flex-column, .card-text, .card-body {
 }
 
 .card-body.tall {
-    min-height: 350px;
+    min-height: 360px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: flex-start;
     flex-wrap: nowrap;
 }
@@ -314,6 +314,20 @@ button:focus:not(:focus-visible) {
     align-content: space-around;
     flex-wrap: nowrap;
 }
+
+.flex-row {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body {
+    flex: 1;
+  }
 
 .card-btn {
     text-transform: uppercase;
