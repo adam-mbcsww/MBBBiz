@@ -429,7 +429,7 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     .carousel-caption.d-md-block p {font-size: 0.5rem; width: 100%;display: none;}
     .carousel-caption.d-md-block h5 {font-size: 1.2rem;}
     .carousel-caption.d-md-block h3 {font-size: 1.4rem;}
-    .lineLeftBg { height: 170px; background: white; padding: 0; }
+    .lineLeftBg { height: 170px; background: white; padding: 0; text-align: center; }
     .lineLeftBg p {display: inline-grid;text-align: center;font-size: 1.2rem;}
     .lineLeftBg p a{margin-top: 10px; font-size: 1.5rem; height: 50px;}
     .accordButton,.card {margin: 20px 0;}
