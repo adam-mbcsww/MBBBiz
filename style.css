@@ -107,6 +107,7 @@ p {
     color: #0074DD;
     background-color: #fff;
     border: none;
+    text-decoration: underline;
     padding: 0;
 }
 
