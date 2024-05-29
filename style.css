@@ -267,8 +267,8 @@ img.card-img-top.nopad {
 .accordIcon {
     margin: 0 auto;
 }
-
-div#carousel3AAT .card-body {
+#carousel3AATmob {display: none;}
+div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -327,4 +327,7 @@ div#carousel3AAT .card-body {
     .lineLeftBg {height: 170px;}
     .lineLeftBg p {display: inline-grid;text-align: center;font-size: 1.2rem;}
     .lineLeftBg p a{margin-top:10px ;}
+    .accordButton,.card {margin: 20px 0;}
+    #carousel3AATdesk {display: none;}
+    #carousel3AATmob {display: block;}
 } 
