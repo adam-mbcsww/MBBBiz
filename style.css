@@ -445,6 +445,6 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
 } 
 
 @media only screen and (min-width: 768px) and (max-width:1025px) {
-.sticky-box-container {top: 109%;}
+.sticky-box-container {top: 107%;}
 .col-md-1 {width: 100%;}
 }
