@@ -410,11 +410,13 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
 }
 
 .carousel-control-next {
-    right: -10%;
+    right: -3%;
+    width: 2%;
 }
 
-.carousel-control-prev {
-    left: -10%;
+.carousel-control-prev { 
+    left: -3%;
+    width: 2%;
 }
 
 @media (max-width:1025px) { 
