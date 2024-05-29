@@ -158,8 +158,9 @@ p {
     font-size: 3rem;
 }
 .carousel-caption.d-md-block p {
-    color: #fff; 
-    width: 290px
+    color: #fff;
+    width: 410px;
+    font-size: 1.03rem;
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
