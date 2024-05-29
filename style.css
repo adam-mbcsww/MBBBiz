@@ -416,6 +416,8 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     .lineLeftBg p a{margin-top: 10px; font-size: 1.5rem; height: 50px;}
     .accordButton,.card {margin: 20px 0;}
     #carousel3AATdesk {display: none;}
-    #carousel3AATmob {display: block;}
+    #carousel3AATmob {display: block;margin-bottom: 30px;}
+    #carousel3AATmob .carousel-indicators { top: 430px; }
     .bigButtonStyle{background-color: #FFC73D;color: #000;border: none;height: 30px;font-size: 0.7rem;    z-index: 99;}
+    .carousel-indicators [data-bs-target] {background-color: #E9E9E9;}
 } 
