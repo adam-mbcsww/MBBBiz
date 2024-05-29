@@ -159,6 +159,7 @@ p {
 }
 .carousel-caption.d-md-block p {
     color: #fff; 
+    width: 290px
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
@@ -321,7 +322,7 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     div#accordionFlushMBB    {margin: 1rem 0rem;}
     .sticky-box-container    {top: 98%;}
     .carousel-caption        {bottom: 0;max-width: 180px;}
-    .carousel-caption.d-md-block p {font-size: 0.5rem;}
+    .carousel-caption.d-md-block p {font-size: 0.5rem; width: 100%;}
     .carousel-caption.d-md-block h5 {font-size: 0.7rem;}
     .carousel-caption.d-md-block h3 {font-size: 1rem;}
     .lineLeftBg {height: 170px;}
