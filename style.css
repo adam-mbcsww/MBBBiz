@@ -369,6 +369,7 @@ img.card-img-top.nopad {
 .accordIcon {
     margin: 0 auto;
 }
+#carousel3AATdesk .carousel-inner {height:120%;}
 #carousel3AATmob {display: none;}
 div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     height: 200px;
