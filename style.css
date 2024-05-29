@@ -181,6 +181,15 @@ p {
   opacity: 1;
 }
 
+.col-sm-4.col-md-2.rolloveryellow p.h6{
+    width: auto;
+    font-size: 1rem;
+}
+
+.col-sm-4.col-md-2.rolloveryellow p{
+    width: 139px;
+}
+
 div#accordionFlushMBB {
     margin: 3rem 6rem;
 }
@@ -258,8 +267,15 @@ img.card-img-top.nopad {
     cursor: pointer;
     padding: 0 30px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
 }
-
+.col-sm-4.col-md-2.rolloveryellow img {
+    margin-bottom: 10px;
+}
 .rolloveryellow:hover {
     border-bottom: #FFC73D solid 2px;
     margin: 0 auto;
