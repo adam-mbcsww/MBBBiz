@@ -443,3 +443,8 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     .sticky-box:first-child { background-color: #FFC73D; border-top-left-radius: 0px; padding: 15px 20px 0px 20px; border: none; }
     .sticky-box:nth-child(2) { padding: 1px 20px; border-bottom-left-radius: 0; border: none; background-color: #FFC73D; }
 } 
+
+@media only screen and (min-width: 768px) and (max-width:1025px) {
+.sticky-box-container {top: 109%;}
+.col-md-1 {width: 100%;}
+}
