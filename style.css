@@ -419,6 +419,8 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     left: -3%;
     width: 2%;
 }
+.lineLeftBg p.h4 {font-size: 1rem !important;}
+ 
 
 @media (max-width:1025px) { 
     iframe {height: 220px;} 
@@ -431,15 +433,13 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     .lineLeftBg p a{margin-top: 10px; font-size: 1.5rem; height: 50px;}
     .accordButton,.card {margin: 20px 0;}
     .rolloveryellow {margin-bottom: 30px;}
-    #carousel3AATdesk {display: none;}
-    #carousel3AATmob {display: block;margin-bottom: 30px;}
-    #carousel3AATmob .carousel-indicators { top: 430px; }
     .bigButtonStyle{background-color: #FFC73D;color: #000;border: none;height: 30px;font-size: 0.7rem;position: relative;z-index: 99;}
     .carousel-indicators [data-bs-target] {background-color: #E9E9E9;}
     .stickyflex {display: block;}
     .sticky-box:first-child { background-color: #FFC73D; border-top-left-radius: 0px; padding: 15px 20px 0px 20px; border: none; }
     .sticky-box:nth-child(2) { padding: 1px 20px; border-bottom-left-radius: 0; border: none; background-color: #FFC73D; }
 } 
+
 
 @media (max-width:660px) { 
     .carousel-caption        {bottom: 30px;max-width: 280px;}
@@ -448,8 +448,17 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     .carousel-caption.d-md-block h3 {font-size: 1.4rem;}
 }
 
+
+@media (max-width:900px) { 
+    #carousel3AATdesk {display: none;}
+    #carousel3AATmob {display: block;margin-bottom: 30px;}
+    #carousel3AATmob .carousel-indicators { top: 430px; }
+}
+
 @media only screen and (min-width: 768px) and (max-width:1025px) {
 .sticky-box-container {top: 107%;}
 .col-md-1 {width: 100%;}
 .peachbg {background-color: #FEF9EC; padding: 55px 0;}
 }
+
+
