@@ -447,7 +447,10 @@ div#carousel3AATdesk .card-body, div#carousel3AATmob .card-body {
     width: 2%;
 }
 .lineLeftBg p.h4 {font-size: 20px !important;}
- 
+
+div#carousel3AATdesk .carousel-inner .row .card {
+    border-radius: 17px !important;
+}
 
 @media (max-width:1025px) { 
     
