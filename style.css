@@ -187,6 +187,10 @@ p {
     font-size: 20px!important;
 }
 
+.carousel-inner :nth-child(2) .carousel-caption.d-md-block h3, .carousel-inner :nth-child(3) .carousel-caption.d-md-block h3 { 
+    color: #000;
+}
+
 .carousel-inner :nth-child(3) .carousel-caption.d-md-block h3 { 
     width: 660px; 
 }
