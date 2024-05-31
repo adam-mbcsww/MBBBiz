@@ -452,6 +452,10 @@ div#carousel3AATdesk .carousel-inner .row .card {
     border-radius: 17px !important;
 }
 
+div#carousel3AATmob .carousel-inner .row .card {
+    border-radius: 17px !important;
+}
+
 @media (max-width:1025px) { 
     
     .carousel-caption.d-md-block p {font-size: 0.8rem!important; width: 300px;}
@@ -485,6 +489,7 @@ div#carousel3AATdesk .carousel-inner .row .card {
     .carousel-caption.d-md-block h3 {font-size: 1.4rem!important;}
     .carousel-caption.d-md-block ul {display: none;}
     .carousel-inner :nth-child(2) .carousel-caption { bottom: 3rem !important; }
+    .card-img-top {height: 150px;}
 }
 
 
