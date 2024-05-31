@@ -222,6 +222,21 @@ p {
     color: #FFC73D;
 }
 
+.carousel-flexbox {
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-left: 4rem;
+}
+
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
