@@ -534,3 +534,4 @@ div#carousel3AATmob .carousel-inner .row .card {
 }
 
 
+@media (max-width: 375px) { .sticky-box-container { top: 56vw; width: 100%; } }
