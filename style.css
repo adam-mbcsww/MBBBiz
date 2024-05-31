@@ -209,16 +209,16 @@ p {
     color:#000!important;
 }
 
-.text-black ul {
+.carousel-inner ul {
     padding-left: 1rem; 
 }
 
-.text-black ul li {
-    color:#000!important;
+.carousel-inner ul li {
+    color:#fff!important;
     font-family: 'Rubik Regular';
 }
 
-.text-black ul li::marker {
+.carousel-inner  ul li::marker {
     color: #FFC73D;
 }
 
