@@ -534,5 +534,8 @@ div#carousel3AATmob .carousel-inner .row .card {
 .card-body.tall {min-height: 470px;display: flex;flex-direction: column;align-items: flex-start;align-content: flex-start;flex-wrap: nowrap;justify-content: space-between;padding-top: 40px;}
 }
 
+@media only screen and (min-width: 375px) and (max-width:660px) {
+    .sticky-box-container {top: 54vw;width: 100%;}
+    }
 
 @media (max-width: 375px) { .sticky-box-container { top: 56vw; width: 100%; } }
