@@ -509,12 +509,12 @@ div#carousel3AATmob .carousel-inner .row .card {
     .carousel-caption        {bottom: 30px;max-width: 280px;} 
     .carousel-caption.d-md-block p {font-size: 0.5rem!important; width: 100%;display: none;}
     .carousel-caption.d-md-block h5 {font-size: 1.2rem!important;}
-    .carousel-caption.d-md-block h3 {font-size: 1.4rem!important;}
-    .carousel-inner :nth-child(3) .carousel-caption h3 {width: 250px !important;}
-    .carousel-inner :nth-child(3) .carousel-caption h5 {width:120px!important}
+    .carousel-caption.d-md-block h3 {font-size: 1.2rem!important;}
+    .carousel-inner :nth-child(3) .carousel-caption h3 {width:120px !important;}
+    .carousel-inner :nth-child(3) .carousel-caption h5 {width:250px!important}
     .carousel-caption.d-md-block ul {display: none;}
     .carousel-inner :nth-child(2) .carousel-caption { bottom: 2rem !important; }
-    carousel-flexbox {padding-left: 1rem!important;}
+    .carousel-flexbox {padding-left: 1.5rem!important;}
     .card-img-top {height: 150px;}
     .rolloveryellow .line-container {padding: 0!important;}
 }
