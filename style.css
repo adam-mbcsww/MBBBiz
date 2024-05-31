@@ -488,7 +488,7 @@ div#carousel3AATmob .carousel-inner .row .card {
     .carousel-caption.d-md-block h5 {font-size: 1.2rem!important;}
     .carousel-caption.d-md-block h3 {font-size: 1.4rem!important;}
     .carousel-caption.d-md-block ul {display: none;}
-    .carousel-inner :nth-child(2) .carousel-caption { bottom: 3rem !important; }
+    .carousel-inner :nth-child(2) .carousel-caption { bottom: 2rem !important; }
     .card-img-top {height: 150px;}
 }
 
