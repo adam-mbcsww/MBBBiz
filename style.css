@@ -46,21 +46,25 @@ p, h6, .flex-column, .card-text, .card-body {
 }
 
 .card-body.tall {
-    min-height: 390px;
+    min-height: 370px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-content: flex-start;
     flex-wrap: nowrap;
     padding-top: 30px;
+}
+
+.card-body.tall a {
+    margin-top: auto;
 }
 
 .card-body ul li {
     font-size: 0.8rem;
 }
 
-h3, h4, .h3, .h4, .bigButtonStyle {
+h3, h4, .h4, .bigButtonStyle {
     font-family: 'Rubik Semi Bold';
     font-size: 20px !important;
 }
@@ -78,7 +82,7 @@ h5, .h5 {
 
 p {
     color: #373737;
-    font-size: 0.8rem;
+    font-size: 16px;
 } 
 
 
